@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".alcoolvsgasolina">
+
+
+    <TextView
+        android:id="@+id/title_average"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alcool vs Gasolina"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"
+        />
+    <View
+        android:id="@+id/containerComponents"
+        android:layout_height="400dp"
+        style="@style/ContainerComponents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_average"
+        />
+    <EditText
+        android:id="@+id/input_alcool"
+        style="@style/Edit_Text"
+        android:hint="Preço do alcool"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/containerComponents"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponents"
+        app:layout_constraintTop_toTopOf="@id/containerComponents"
+        />
+    <EditText
+        android:id="@+id/input_gasolina"
+        style="@style/Edit_Text"
+        android:hint="Preço da gasolina"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/containerComponents"
+        app:layout_constraintEnd_toEndOf="@+id/containerComponents"
+        app:layout_constraintTop_toBottomOf="@id/input_alcool"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonCalcularMedia"
+        style="@style/ButtonLogin"
+        android:clickable="false"
+        android:onClick="btnCalcularMedia"
+        android:text="Descobrir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_gasolina" />
+    <TextView
+        android:id="@+id/text_result"
+        style="@style/textResult"
+        android:text="Resultado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonCalcularMedia"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

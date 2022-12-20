@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "9250922581",
+    "project_id": "ecocar-ffe72",
+    "storage_bucket": "ecocar-ffe72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9250922581:android:c7f2b295302bdcd04574dc",
+        "android_client_info": {
+          "package_name": "com.example.ecconomizecar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9250922581-4hmmpq5heo46agvl6bnftvi5p9ap0t6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2TLsmkqougNOVquqSHojWWXF2NzB89xU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9250922581-4hmmpq5heo46agvl6bnftvi5p9ap0t6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

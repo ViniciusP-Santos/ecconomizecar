@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EconomizeCar</string>
+    <string name="login">Login</string>
+    <string name="logout">Deslogar</string>
+    <string name="text_cadastro">Crie uma conta clicando aqui!</string>
+    <string name="title_register">Cadastre-se</string>
+    <string name="title_main">Bem vindo!</string>
+    <string name="title_average">Média</string>
+    <string name="text_calcular">Calcular</string>
+    <string name="text_verMedias">Ver médias</string>
+</resources>
